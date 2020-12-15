@@ -1,0 +1,27 @@
+#Modal{
+    position: absolute;
+    top: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    overflow: hidden;
+    background: rgba(0,0,0,.3);
+    justify-content: center;
+    align-items: center;
+}
+
+#box-modal{
+    width: 500px;
+    height: 400px;
+    background: orangered;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+#header span{
+    cursor: pointer;
+}
+

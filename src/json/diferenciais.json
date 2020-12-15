@@ -1,0 +1,27 @@
+[
+
+    {
+        "titulo": "Low Carb",
+        "descricao": "Produtos de baixo carboidrato"
+    },
+
+    {
+        "titulo": "Produtos orgânicos",
+        "descricao": "Linhas de alta qualidade"
+    },
+
+    {
+        "titulo": "Glútem free",
+        "descricao": "Produtos sem glútem"
+    },
+
+    {
+        "titulo": "Zero lactose",
+        "descricao": "Melhores marcas do mercado"
+    },
+
+    {
+        "titulo": "Vegano",
+        "descricao": "Produtos sem origem animal"
+    }
+]

@@ -1,0 +1,25 @@
+#box-container{
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box{
+    width: 75%;
+    height: 380px;
+    display: flex;
+    border: 1px solid black;
+}
+
+#box-left{
+    width: 40%;
+    height: 100%;
+    background-image: url("../images/123.jpg");
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+

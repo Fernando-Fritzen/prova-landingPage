@@ -1,0 +1,34 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    border-top: 1px solid rgba(0,0,0.03);
+
+}
+
+h4{
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+#contato{
+    margin: 10px 20px;
+    width: 25%;
+}
+
+#menu{
+    width: 25%;
+}
+
+#redesSociais{
+    display: flex;
+    width: 25%;
+    height: 145px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#redesSociais img{
+    width: 30px;
+    height: 30px;
+}

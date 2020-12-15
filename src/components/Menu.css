@@ -1,0 +1,29 @@
+ul{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    list-style: none;
+}
+
+li{
+    padding: 10px;
+}
+
+li:last-child{
+    border: 1px solid #FFF;
+}
+
+li:hover{
+    color: orange;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+a:hover{
+    color: orange;
+}
