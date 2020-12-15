@@ -1,6 +1,6 @@
 import React from 'react';
 
-// import '../styles/NotFound.css';
+import '../styles/NotFound.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
