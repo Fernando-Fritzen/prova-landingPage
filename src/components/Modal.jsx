@@ -9,11 +9,13 @@ function Modal({show, close}){
         }}>
             <div id="box-modal">
                 <div id="header">
-                    <h2>Muito obrigado</h2>
-                    <span onClick={close}>x</span>
+                    <h2>Bem vindo</h2>
+                    <span onClick={close} id="close-modal">x</span>
+                </div>
+                <div id="modal-container">
+                    <p>Muito obrigado por se inscrever, entraremos em contato o mais rápido possivel</p>  
                 </div>
 
-                <p>Entraremos em contato o mais rápido possivel</p>
             </div>
         </div>
     );

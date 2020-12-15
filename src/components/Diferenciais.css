@@ -1,6 +1,7 @@
 table{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 td{
@@ -16,6 +17,8 @@ td{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 25px;
+
 }
 
 td:last-child{

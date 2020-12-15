@@ -27,28 +27,24 @@ function BoxRight({setShow}) {
 
   const handleChangeNome = (e) => {
     setNome(e.target.value);
-    console.log(e.target.value);
   }
 
   const handleChangeEmail = (e) => {
     setEmail(e.target.value);
-    console.log(e.target.value);
   }
 
   const handleChangeTelefone = (e) => {
     setTelefone(e.target.value);
-    console.log(e.target.value);
   }
 
   const handleChangeNascimento = (e) => {
     setNascimento(e.target.value);
-    console.log(e.target.value);
   }
 
 
   return(
     <div id="box-right">
-        <form onSubmit={handleSubmit}> 
+        <form onSubmit={handleSubmit} > 
 
             <h3>Escreva-nos uma mensagem</h3>
             <h4>Insira seus dados e nossa equipe entrará em contato</h4>
@@ -79,7 +75,7 @@ function BoxRight({setShow}) {
                 <span>Receber Newsletter</span>
             </div>
 
-            <input id="cadastrar" type="submit" value="Cadastrar"  onClick={() => setShow(true)}/>
+            <input id="cadastrar" type="submit" value="Cadastrar" onClick={() => setShow(true)}/>
 
         </form>         
     </div>

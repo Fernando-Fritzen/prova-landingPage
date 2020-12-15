@@ -21,7 +21,12 @@
     padding: 10px 20px;
 }
 
-#header span{
+#header span#close-modal{
     cursor: pointer;
+    font-size: 20px;
 }
 
+#modal-container{
+    padding: 0 40px;
+    margin-top: 40px;
+}
